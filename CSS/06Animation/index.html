@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: brown;
+            animation-name: ChangeColor;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes ChangeColor{
+
+           0%{background-color: brown; transfrom: translateX(0)}
+
+
+           25%{background-color: aqua;}
+
+           50%{background-color: beige;}
+
+           75%{background-color: blue;}
+
+           100%{background-color: blueviolet;}
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+
+
+    </div>
+
+    <strong>Animation effects go to original form after completing</strong>
+</body>
+</html>

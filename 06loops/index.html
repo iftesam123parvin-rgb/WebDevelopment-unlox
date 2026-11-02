@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Loop-Repeating the same task
+        // when condition is true loop starts
+        // print 1 to 10
+
+
+        // 1. for(start point;end/condition;Operation ++ / --) -when u know start and end point
+
+        for ( let i = 1; i <= 10; i++){
+
+            console.log("The value of Number" , i)
+
+        }
+
+        // print 10 to 1
+
+        for (let j=10; j>=10; j--){
+            console.log("the value of number j" , j)
+        }
+
+        // 2.while(condition){
+        // }
+
+        let count = 1
+
+        while(count<=5){
+            console.log("Login Attempt")
+            count++
+        }
+
+        // 3. do{Task}while(condition)
+        // It will always execute/ do the task at least for one time
+
+        let number = 7
+
+        do{
+            console.log("Good morning")
+        }while (number<5)
+
+
+        // break- to stop
+
+        for(let k=1; k<=5; k++){
+            if(k == 3){
+                break
+            }
+
+            console.log("Hello guys")
+        }
+
+        // 5.continue
+
+        for(let p=5; p<=10; p++){
+            if(p == 7){
+                continue
+            }
+
+            console.log("Hello guys", p)
+        }
+    </script>
+</body>
+</html>  
