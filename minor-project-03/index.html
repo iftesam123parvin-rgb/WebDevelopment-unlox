@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Minor Project 03 – Weather & Movie Search</title>
+  <link rel="stylesheet" href="assets/base.css" />
+  <style>
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
+    .card {
+      display: block; padding: 28px; border-radius: var(--radius);
+      background: var(--surface); text-decoration: none; color: var(--text);
+      border: 1px solid var(--surface-2); transition: transform .2s, border-color .2s;
+    }
+    .card:hover { transform: translateY(-4px); border-color: var(--accent); }
+    .card .icon { font-size: 2.5rem; }
+    .card h2 { margin: 8px 0; }
+    .card p { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <h1>Minor Project 03</h1>
+    <p class="subtitle">Two web apps built with HTML5, CSS3, JavaScript (ES6+) and public APIs.</p>
+
+    <div class="cards">
+      <a class="card" href="weather/index.html">
+        <div class="icon">⛅</div>
+        <h2>Weather App</h2>
+        <p>Search any city to see the current temperature, conditions, humidity and wind speed.</p>
+      </a>
+      <a class="card" href="movies/index.html">
+        <div class="icon">🎬</div>
+        <h2>Movie Search App</h2>
+        <p>Search titles to see posters, ratings, genres, release info and a summary.</p>
+      </a>
+    </div>
+  </main>
+</body>
+</html>
